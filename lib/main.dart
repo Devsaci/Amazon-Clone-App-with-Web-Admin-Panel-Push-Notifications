@@ -9,9 +9,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: true,
       title: "Users App amazon Clone",
+      theme: ThemeData(primarySwatch: Colors.purple),
     );
   }
 }
