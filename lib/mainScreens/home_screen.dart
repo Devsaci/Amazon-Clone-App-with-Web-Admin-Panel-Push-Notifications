@@ -29,23 +29,8 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
         ),
       ),
-      body: Center(
-        child: Container(
-          height: 400,
-          width: 400,
-          decoration: BoxDecoration(
-            gradient: RadialGradient(
-              colors: [
-                Colors.yellow.shade50,
-                Colors.yellow.shade900,
-              ],
-              //begin: FractionalOffset(0.0, 0.0),
-              // end: FractionalOffset(1.0, 0.0),
-              // stops: [0.0, 1.0],
-              tileMode: TileMode.repeated,
-            ),
-          ),
-        ),
+      body: const Center(
+        child: Text("4. implement custom side navigation drawer"),
       ),
     );
   }
