@@ -14,6 +14,7 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         centerTitle: true,
         title: const Text("iShop"),
+        flexibleSpace: Container(),
       ),
     );
   }
