@@ -77,6 +77,8 @@ class MyDrawer extends StatelessWidget {
                 color: Colors.grey,
                 thickness: 2,
               ),
+              //not yet received orders
+              const ListTile()
             ],
           ),
         ],
