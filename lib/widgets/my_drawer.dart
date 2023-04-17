@@ -105,6 +105,23 @@ class MyDrawer extends StatelessWidget {
                 color: Colors.grey,
                 thickness: 2,
               ),
+              //search
+              ListTile(
+                leading: const Icon(
+                  Icons.search,
+                  color: Colors.grey,
+                ),
+                title: const Text(
+                  "Search",
+                  style: TextStyle(color: Colors.grey),
+                ),
+                onTap: () {},
+              ),
+              const Divider(
+                height: 10,
+                color: Colors.grey,
+                thickness: 2,
+              ),
             ],
           ),
         ],
