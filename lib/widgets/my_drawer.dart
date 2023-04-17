@@ -66,6 +66,10 @@ class MyDrawer extends StatelessWidget {
               //my orders
               const ListTile(
                 leading: Icon(Icons.reorder, color: Colors.grey),
+                title: Text(
+                  "My Orders",
+                  style: TextStyle(color: Colors.grey),
+                ),
               ),
             ],
           ),
