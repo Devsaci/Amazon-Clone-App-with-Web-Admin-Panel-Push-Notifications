@@ -8,14 +8,19 @@ class MyDrawer extends StatelessWidget {
     return Drawer(
       // backgroundColor: Colors.black45,
       child: ListView(
-        children: const [
+        children: [
           //header
           Column(
             children: [
               //user profile image
-              CircleAvatar(
-                backgroundImage: NetworkImage(
-                    "https://images.unsplash.com/photo-1446707052533-0e1d48e08aa9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dHJlc3N8ZW58MHx8MHx8&w=1000&q=80"),
+              // ignore: sized_box_for_whitespace
+              Container(
+                height: 130,
+                width: 130,
+                child: const CircleAvatar(
+                  backgroundImage: NetworkImage(
+                      "https://images.unsplash.com/photo-1446707052533-0e1d48e08aa9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dHJlc3N8ZW58MHx8MHx8&w=1000&q=80"),
+                ),
               ),
               //user name
             ],
