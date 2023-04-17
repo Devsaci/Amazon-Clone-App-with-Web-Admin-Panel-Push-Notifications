@@ -46,6 +46,10 @@ class MyDrawer extends StatelessWidget {
                 color: Colors.grey,
                 thickness: 2,
               ),
+              //home
+              ListTile(
+                leading: Icon(Icons.home_filled, color: Colors.black),
+              ),
             ],
           ),
         ],
