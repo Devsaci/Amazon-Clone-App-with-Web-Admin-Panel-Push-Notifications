@@ -32,8 +32,7 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
       ),
       body: const Center(
-        child: Text("4. implement custom side navigation drawer"),
-      ),
+          child: Text("4. implement custom side navigation drawer")),
     );
   }
 }

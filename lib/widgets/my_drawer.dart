@@ -64,12 +64,13 @@ class MyDrawer extends StatelessWidget {
                 thickness: 2,
               ),
               //my orders
-              const ListTile(
-                leading: Icon(Icons.reorder, color: Colors.grey),
-                title: Text(
+              ListTile(
+                leading: const Icon(Icons.reorder, color: Colors.grey),
+                title: const Text(
                   "My Orders",
                   style: TextStyle(color: Colors.grey),
                 ),
+                onTap: () {},
               ),
             ],
           ),
