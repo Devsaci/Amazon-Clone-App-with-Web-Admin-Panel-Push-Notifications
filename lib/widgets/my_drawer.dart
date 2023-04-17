@@ -64,7 +64,9 @@ class MyDrawer extends StatelessWidget {
                 thickness: 2,
               ),
               //my orders
-              ListTile(),
+              const ListTile(
+                leading: Icon(Icons.reorder, color: Colors.grey),
+              ),
             ],
           ),
         ],
