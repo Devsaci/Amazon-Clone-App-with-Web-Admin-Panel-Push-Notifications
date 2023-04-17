@@ -9,9 +9,13 @@ class MyDrawer extends StatelessWidget {
       // backgroundColor: Colors.black45,
       child: ListView(
         children: const [
-          ListTile(
-            title: Text("MyDrawer"),
-          )
+          //header
+          Column(
+            children: [
+              //user profile image
+              //user name
+            ],
+          ),
         ],
       ),
     );
