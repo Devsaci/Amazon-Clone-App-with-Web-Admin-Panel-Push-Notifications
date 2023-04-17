@@ -78,9 +78,10 @@ class MyDrawer extends StatelessWidget {
                 thickness: 2,
               ),
               //not yet received orders
-              const ListTile(
-                leading: Icon(Icons.picture_in_picture_alt_rounded),
-                title: Text("Not Yet Received Orders"),
+              ListTile(
+                leading: const Icon(Icons.picture_in_picture_alt_rounded),
+                title: const Text("Not Yet Received Orders"),
+                onTap: () {},
               ),
             ],
           ),
