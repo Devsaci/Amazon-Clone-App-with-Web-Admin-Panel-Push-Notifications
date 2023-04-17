@@ -14,7 +14,8 @@ class MyDrawer extends StatelessWidget {
             children: [
               //user profile image
               CircleAvatar(
-                backgroundImage: NetworkImage("url"),
+                backgroundImage: NetworkImage(
+                    "https://images.unsplash.com/photo-1446707052533-0e1d48e08aa9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dHJlc3N8ZW58MHx8MHx8&w=1000&q=80"),
               ),
               //user name
             ],
