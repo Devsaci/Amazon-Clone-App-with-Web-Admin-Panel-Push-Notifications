@@ -80,6 +80,7 @@ class MyDrawer extends StatelessWidget {
               //not yet received orders
               const ListTile(
                 leading: Icon(Icons.picture_in_picture_alt_rounded),
+                title: Text("Not Yet Received Orders"),
               ),
             ],
           ),
