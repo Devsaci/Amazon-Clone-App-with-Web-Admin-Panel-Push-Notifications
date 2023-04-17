@@ -21,7 +21,7 @@ class MyDrawer extends StatelessWidget {
                   width: 130,
                   child: const CircleAvatar(
                     backgroundImage: NetworkImage(
-                        "https://images.unsplash.com/photo-1446707052533-0e1d48e08aa9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dHJlc3N8ZW58MHx8MHx8&w=1000&q=80"),
+                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-BA_5-itQNqTS2sI3CGlLsjkfU-C6B3TR3Q&usqp=CAU"),
                   ),
                 ),
                 const SizedBox(height: 12),
@@ -113,6 +113,23 @@ class MyDrawer extends StatelessWidget {
                 ),
                 title: const Text(
                   "Search",
+                  style: TextStyle(color: Colors.grey),
+                ),
+                onTap: () {},
+              ),
+              const Divider(
+                height: 10,
+                color: Colors.grey,
+                thickness: 2,
+              ),
+              //logout
+              ListTile(
+                leading: const Icon(
+                  Icons.exit_to_app,
+                  color: Colors.grey,
+                ),
+                title: const Text(
+                  "Sign Out",
                   style: TextStyle(color: Colors.grey),
                 ),
                 onTap: () {},
