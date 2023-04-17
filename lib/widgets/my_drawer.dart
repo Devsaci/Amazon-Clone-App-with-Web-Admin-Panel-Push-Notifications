@@ -5,8 +5,15 @@ class MyDrawer extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Drawer(
-      backgroundColor: Colors.black45,
+    return Drawer(
+      // backgroundColor: Colors.black45,
+      child: ListView(
+        children: const [
+          ListTile(
+            title: Text("MyDrawer"),
+          )
+        ],
+      ),
     );
   }
 }
