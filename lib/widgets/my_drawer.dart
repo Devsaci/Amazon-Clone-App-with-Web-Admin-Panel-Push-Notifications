@@ -72,6 +72,11 @@ class MyDrawer extends StatelessWidget {
                 ),
                 onTap: () {},
               ),
+              const Divider(
+                height: 10,
+                color: Colors.grey,
+                thickness: 2,
+              ),
             ],
           ),
         ],
